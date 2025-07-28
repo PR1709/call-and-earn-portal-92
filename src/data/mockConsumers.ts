@@ -1,0 +1,85 @@
+
+import { Consumer } from '@/types/Consumer';
+
+export const defaultConsumers: Consumer[] = [
+  {
+    id: 1,
+    name: "Rahul Sharma",
+    email: "rahul.sharma@email.com",
+    phone: "+91 98765 43210",
+    address: "Mumbai, Maharashtra",
+    joinDate: "2024-01-15",
+    status: "Active",
+    tier: "Premium",
+    walletBalance: 1250,
+    totalEarnings: 2500,
+    totalLosses: 800,
+    averageTimeSpent: "2.5 hours",
+    conversionRate: "12.5%",
+    isActive: true
+  },
+  {
+    id: 2,
+    name: "Priya Patel",
+    email: "priya.patel@email.com",
+    phone: "+91 87654 32109",
+    address: "Delhi, India",
+    joinDate: "2024-01-20",
+    status: "Active",
+    tier: "Premium",
+    walletBalance: 2300,
+    totalEarnings: 3200,
+    totalLosses: 950,
+    averageTimeSpent: "3.1 hours",
+    conversionRate: "15.2%",
+    isActive: true
+  },
+  {
+    id: 3,
+    name: "Amit Kumar",
+    email: "amit.kumar@email.com",
+    phone: "+91 76543 21098",
+    address: "Bangalore, Karnataka",
+    joinDate: "2024-01-25",
+    status: "Blocked",
+    tier: "Non-Premium",
+    walletBalance: 450,
+    totalEarnings: 800,
+    totalLosses: 1200,
+    averageTimeSpent: "1.2 hours",
+    conversionRate: "8.5%",
+    isActive: false
+  },
+  {
+    id: 4,
+    name: "Sneha Singh",
+    email: "sneha.singh@email.com",
+    phone: "+91 65432 10987",
+    address: "Chennai, Tamil Nadu",
+    joinDate: "2024-02-01",
+    status: "Active",
+    tier: "Non-Premium",
+    walletBalance: 3200,
+    totalEarnings: 1800,
+    totalLosses: 600,
+    averageTimeSpent: "1.8 hours",
+    conversionRate: "10.2%",
+    isActive: true
+  },
+  {
+    id: 5,
+    name: "Vikash Yadav",
+    email: "vikash.yadav@email.com",
+    phone: "+91 54321 09876",
+    address: "Pune, Maharashtra",
+    joinDate: "2024-02-05",
+    status: "Pending",
+    tier: "Premium",
+    walletBalance: 780,
+    totalEarnings: 1200,
+    totalLosses: 400,
+    averageTimeSpent: "2.0 hours",
+    conversionRate: "11.5%",
+    isActive: false
+  }
+];
